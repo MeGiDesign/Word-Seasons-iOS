@@ -10,30 +10,10 @@ import SwiftUI
 struct GameView: View {
     var body: some View {
         VStack {
-            HStack {
-                WordView("O")
-                WordView("K")
-                WordView("A")
-                WordView("N")
-            }
-            HStack {
-                WordView("O")
-                WordView("K")
-                WordView("A")
-                WordView("N")
-            }
-            HStack {
-                WordView("O")
-                WordView("K")
-                WordView("A")
-                WordView("N")
-            }
-            HStack {
-                WordView("O")
-                WordView("K")
-                WordView("A")
-                WordView("N")
-            }
+            WordView(orinetation: .horizontal, word: "OKAN")
+            WordView(orinetation: .horizontal, word: "OKAN")
+            WordView(orinetation: .horizontal, word: "OKAN")
+            WordView(orinetation: .vertical, word: "OKAN")
         }
     }
 }
